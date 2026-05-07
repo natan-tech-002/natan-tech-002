@@ -6,3 +6,5 @@ Trabalho na area de Redes na Unifaj
 Procuro algo para fazer em ciencia de dados
 Sei algumas coisas sobre Python,R e aprendendo outras
 me chame pelo email:natanrene12@gmail.com ou natanrene135@gmail.com
+
+OBS: LEMBRAR DE VENDER O MEU PEIXE
