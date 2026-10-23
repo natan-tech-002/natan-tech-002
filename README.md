@@ -44,16 +44,16 @@
 
 **Foco atual:** fortalecer a programação, praticar resolução de problemas e conectar os conhecimentos de infraestrutura, automação e ciência de dados.
 
-## 📌 Projetos e estudos
+## 🚀 Projetos e estudos em destaque
 
-| Repositório | O que você encontra |
+| Projeto | O que você encontra |
 |---|---|
-| [**Aula 02 — Introdução à programação e IA**](https://github.com/natan-tech-002/aula-02-introducao-a-programacao-a-ia) | Exercícios iniciais de lógica e operações matemáticas com Python. |
-| [**Aula 13 — Python UniFAJ**](https://github.com/natan-tech-002/Aula-13---Python-UniFAJ) | Práticas acadêmicas da disciplina de Introdução à Programação. |
-| [**Aula 14**](https://github.com/natan-tech-002/14---aula) | Repositório de exercícios e aprendizagem da graduação. |
+| [**Calculadora de terminal em Python**](https://github.com/natan-tech-002/Aula-13---Python-UniFAJ/tree/main/Exercicio_Calculadora) | Calculadora com quatro operações, validação de entradas, suporte a decimais e testes automatizados. |
+| [**Fundamentos de Python — Aula 02**](https://github.com/natan-tech-002/aula-02-introducao-a-programacao-a-ia) | Exercícios de lógica e operações matemáticas básicas. |
+| [**Operador ternário — Aula 14**](https://github.com/natan-tech-002/14---aula/blob/main/py/Exercicio_operador_ternario.ipynb) | Notebook com exemplos de condições e pequenos desafios práticos. |
 | [**Todos os repositórios**](https://github.com/natan-tech-002?tab=repositories) | Acompanhe meus estudos, experimentos e próximos projetos. |
 
-> Estou organizando minha trajetória do básico ao aplicado. A ideia é que cada projeto tenha código legível, instruções para executar e uma explicação clara do problema que resolve.
+> Estou organizando minha trajetória do básico ao aplicado. Quero que cada projeto tenha código legível, instruções para executar e uma explicação clara do problema que resolve.
 
 ## 📈 Meu GitHub
 
@@ -75,7 +75,7 @@
 - [ ] Publicar um projeto completo de análise de dados, com explicação e visualizações.
 - [ ] Evoluir os exercícios de Python para aplicações práticas.
 - [ ] Explorar automação e integração entre software e infraestrutura.
-- [ ] Melhorar a documentação e os testes dos projetos.
+- [ ] Expandir a cobertura de testes e documentar as decisões dos projetos.
 
 ---
 
