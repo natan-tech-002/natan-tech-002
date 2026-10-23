@@ -31,7 +31,7 @@
 - 🖧 Tenho atuação e interesse em **infraestrutura, redes e suporte tecnológico**.
 - 🐍 Estudo **Python e lógica de programação**, construindo a base para projetos cada vez mais completos.
 - 📊 Tenho interesse em **análise de dados, automação e soluções orientadas por dados**.
-- 🚀 Meu objetivo é aprender na prática, documentar o que desenvolvo e evoluir meus projetos continuamente.
+- 🚀 Gosto de desenvolver protótipos que resolvam problemas do dia a dia e evoluí-los com documentação, testes e segurança.
 
 ## 🧰 Tecnologias e áreas de estudo
 
@@ -42,18 +42,23 @@
   <img src="https://img.shields.io/badge/Redes-Infraestrutura-0F766E?style=for-the-badge&logo=cisco&logoColor=white" alt="Redes e infraestrutura" />
 </p>
 
-**Foco atual:** fortalecer a programação, praticar resolução de problemas e conectar os conhecimentos de infraestrutura, automação e ciência de dados.
+**Foco atual:** fortalecer a programação, praticar resolução de problemas e conectar infraestrutura, automação, desenvolvimento web e ciência de dados.
 
-## 🚀 Projetos e estudos em destaque
+## 🚀 Projetos em destaque
 
-| Projeto | O que você encontra |
-|---|---|
-| [**Calculadora de terminal em Python**](https://github.com/natan-tech-002/Aula-13---Python-UniFAJ/tree/main/Exercicio_Calculadora) | Calculadora com quatro operações, validação de entradas, suporte a decimais e testes automatizados. |
-| [**Fundamentos de Python — Aula 02**](https://github.com/natan-tech-002/aula-02-introducao-a-programacao-a-ia) | Exercícios de lógica e operações matemáticas básicas. |
-| [**Operador ternário — Aula 14**](https://github.com/natan-tech-002/14---aula/blob/main/py/Exercicio_operador_ternario.ipynb) | Notebook com exemplos de condições e pequenos desafios práticos. |
-| [**Todos os repositórios**](https://github.com/natan-tech-002?tab=repositories) | Acompanhe meus estudos, experimentos e próximos projetos. |
+| Projeto | Descrição | Situação |
+|---|---|---|
+| [**Calculadora de terminal em Python**](https://github.com/natan-tech-002/Aula-13---Python-UniFAJ/tree/main/Exercicio_Calculadora) | Quatro operações, validação de entrada, suporte a decimais e testes automatizados. | Código publicado |
+| [**Fundamentos de Python — Aula 02**](https://github.com/natan-tech-002/aula-02-introducao-a-programacao-a-ia) | Exercícios de lógica e operações matemáticas. | Estudos publicados |
+| [**Operador ternário — Aula 14**](https://github.com/natan-tech-002/14---aula/blob/main/py/Exercicio_operador_ternario.ipynb) | Notebook com exemplos e exercícios de condições em Python. | Estudos publicados |
+| [**Contas Fácil**](PROJETOS.md#contas-fácil) | PWA de organização financeira com contas, gráficos, exportação e plano de sincronização entre dispositivos. | Protótipo; backend e sincronização precisam ser concluídos e testados |
+| [**Sistema de triagem e fila clínica**](PROJETOS.md#sistema-de-triagem-e-fila-clínica) | Fluxo de cadastro, senha, triagem, atendimento médico e acompanhamento de fila. | Conceito e requisitos documentados |
+| [**Dashboard Django + Bokeh**](PROJETOS.md#dashboard-django--bokeh) | Aplicação web com gráfico interativo integrado ao Django. | Protótipo local; banco e publicação pendentes |
+| [**Plataforma de monitoria e quizzes**](PROJETOS.md#plataforma-de-monitoria-e-quizzes) | Ideia de aprendizagem gamificada com perguntas, XP, ranking e dicas. | Projeto planejado |
+| [**Acesso remoto simplificado**](PROJETOS.md#acesso-remoto-simplificado) | Alternativa baseada em personalização do RustDesk, com foco em acesso autorizado e segurança. | Plano técnico em elaboração |
+| [**Color Clash — Arduino e LEDs**](PROJETOS.md#color-clash--arduino-e-leds) | Protótipo de jogo competitivo com joystick, matriz de LEDs e placar. | Projeto de hardware planejado |
 
-> Estou organizando minha trajetória do básico ao aplicado. Quero que cada projeto tenha código legível, instruções para executar e uma explicação clara do problema que resolve.
+**Veja o catálogo de projetos** para entender objetivos, tecnologias previstas e o que falta implementar: [PROJETOS.md](PROJETOS.md).
 
 ## 📈 Meu GitHub
 
@@ -72,10 +77,10 @@
 
 ## 🎯 Próximos passos
 
-- [ ] Publicar um projeto completo de análise de dados, com explicação e visualizações.
-- [ ] Evoluir os exercícios de Python para aplicações práticas.
-- [ ] Explorar automação e integração entre software e infraestrutura.
-- [ ] Expandir a cobertura de testes e documentar as decisões dos projetos.
+- [ ] Finalizar e testar a sincronização segura do Contas Fácil.
+- [ ] Publicar um projeto de análise de dados com visualizações e conclusões.
+- [ ] Melhorar a documentação, os testes e a organização dos repositórios.
+- [ ] Escolher um dos protótipos e levá-lo a uma versão pública funcional.
 
 ---
 
