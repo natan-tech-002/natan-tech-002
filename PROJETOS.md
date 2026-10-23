@@ -1,90 +1,33 @@
 # Catálogo de projetos — Natan Silva
 
-Este documento reúne projetos que desenvolvi, planejei ou prototipei durante meus estudos e conversas de desenvolvimento. **A situação de cada item é indicada para não confundir uma ideia com um produto concluído.** Os projetos sem link próprio ainda precisam ser organizados em repositórios independentes.
+Estou reunindo neste repositório os projetos que trabalhamos ao longo do tempo, mantendo separado o que já tem código, o que é protótipo e o que ainda é planejamento.
 
-## Contas Fácil
+## Hub consolidado
 
-**Objetivo:** criar um aplicativo instalável (PWA) para organizar contas e acompanhar a situação financeira em celulares e computadores.
+**[Abrir o índice central de projetos](projetos/README.md)** — cada projeto tem uma página com objetivo, tecnologias, estado atual e próximos passos.
 
-**Funcionalidades planejadas ou presentes no protótipo**
-- Cadastro, edição e acompanhamento de contas pagas e pendentes.
-- Resumo financeiro e gráficos por categoria e situação.
-- Interface responsiva, transições suaves e instalação como PWA.
-- Exportação de dados em CSV.
-- Página inicial, seção “Quem somos” e contato de suporte.
+| Projeto | Resumo | Estado |
+|---|---|---|
+| [Contas Fácil](projetos/contas-facil/README.md) | PWA financeiro, gráficos, exportação e sincronização planejada | Pacote de código existe; integração e publicação precisam de testes |
+| [Dashboard Django + Bokeh](projetos/django-bokeh/README.md) | Gráficos interativos em aplicação web | Protótipo local trabalhado anteriormente |
+| [Triagem clínica](projetos/triagem-clinica/README.md) | Cadastro, triagem, fila e atendimento | Requisitos documentados |
+| [Monitoria e quizzes](projetos/monitoria-quizzes/README.md) | Plataforma gamificada de estudos | Especificação documentada |
+| [Acesso remoto](projetos/acesso-remoto/README.md) | Personalização/configuração do RustDesk | Plano técnico |
+| [Color Clash](projetos/color-clash/README.md) | Jogo com Arduino, joysticks e matriz RGB | Projeto de hardware planejado |
 
-**Tecnologias previstas:** HTML, CSS, JavaScript, PWA e Supabase/PostgreSQL.
+## Projetos de código já publicados
 
-**Situação real:** protótipo front-end preparado e orientações de hospedagem discutidas. Autenticação, sincronização entre dispositivos, controle de acesso, políticas de segurança do banco e funcionamento offline completo ainda precisam ser implementados e testados antes de tratar o app como serviço público.
+- [Calculadora Python com testes](https://github.com/natan-tech-002/Aula-13---Python-UniFAJ/tree/main/Exercicio_Calculadora)
+- [Exercícios básicos de Python](https://github.com/natan-tech-002/aula-02-introducao-a-programacao-a-ia)
+- [Notebook de operador ternário](https://github.com/natan-tech-002/14---aula/blob/main/py/Exercicio_operador_ternario.ipynb)
 
-## Sistema de triagem e fila clínica
+## Como vamos consolidar sem perder nada
 
-**Objetivo:** organizar o fluxo de atendimento desde o cadastro até a finalização da consulta.
+1. Usar este repositório como **hub/monorepo de documentação** e entrada do portfólio.
+2. Manter projetos com dependências e execução diferentes em pastas separadas.
+3. Copiar o código-fonte original de cada projeto para sua pasta quando os arquivos estiverem disponíveis.
+4. Não substituir código local mais recente por versões antigas de conversas.
+5. Não publicar senhas, tokens privados, dados de saúde ou dados financeiros reais.
+6. Só marcar um projeto como pronto depois de executar e testar o código.
 
-**Fluxo proposto**
-1. Cadastro do paciente e emissão de senha.
-2. Triagem para registrar sinais vitais, sintomas, observações e classificação inicial.
-3. Atendimento médico com acesso aos dados da triagem, avaliação, prioridade, conduta, encaminhamentos e assinatura.
-4. Finalização e acompanhamento da fila, com indicação do próximo atendimento e estimativa de espera.
-
-**Requisitos considerados:** prioridade por faixa etária, painel de acompanhamento e exportação CSV.
-
-**Situação real:** requisitos e fluxo funcional definidos; não apresentar como sistema clínico implantado. Um desenvolvimento real exige controle de acesso, auditoria, proteção de dados pessoais e de saúde, validação profissional e testes.
-
-## Dashboard Django + Bokeh
-
-**Objetivo:** exibir gráficos interativos em uma aplicação web Django.
-
-**Implementação explorada:** rota de dashboard, view para gerar gráfico Bokeh e template que incorpora o gráfico na página.
-
-**Tecnologias:** Python, Django, Bokeh e, como etapa planejada, MySQL.
-
-**Situação real:** protótipo local de gráfico com dados de exemplo. Integração final com banco de dados, migrações, dados reais e publicação precisam ser concluídas e verificadas.
-
-## Plataforma de monitoria e quizzes
-
-**Objetivo:** criar um site de apoio aos estudos com experiência gamificada.
-
-**Funcionalidades propostas**
-- Cadastro de usuário e progresso por atividade.
-- Perguntas e feedback, resumos e revisão de dez questões.
-- XP, títulos, ranking e desafios de maior dificuldade.
-- Personagem de professor para dicas e orientação.
-- Prática de código e possível geração de questões com IA.
-- Temas claro e escuro.
-
-**Situação real:** especificação de produto construída; recursos não devem ser considerados implementados sem código e testes verificáveis.
-
-## Acesso remoto simplificado
-
-**Objetivo:** estudar uma alternativa de acesso remoto para computadores, com possibilidade de suporte a celulares posteriormente.
-
-**Direção técnica:** personalizar e configurar o RustDesk, com identidade visual própria e fluxo de conexão por ID e senha para acesso autorizado.
-
-**Prioridades de segurança:** autenticação robusta, consentimento e autorização claros, registro de sessões, armazenamento seguro de credenciais, configuração protegida do servidor e possibilidade de revogar dispositivos. Acesso não supervisionado deve ser explícito, configurável e restrito a dispositivos autorizados.
-
-**Situação real:** plano técnico em elaboração. Não há produto pronto para distribuição até que a implementação e os testes de segurança e compatibilidade sejam feitos.
-
-## Color Clash — Arduino e LEDs
-
-**Objetivo:** criar um jogo competitivo para apresentação acadêmica, com dois jogadores ou adversário controlado pelo computador.
-
-**Ideias de funcionamento**
-- Joysticks para mirar e disparar ações virtuais.
-- Matriz de LEDs RGB para representar território e mudanças de cor.
-- Placar e exibição dos campeões.
-- Identidade visual própria e possível troféu para impressão 3D.
-
-**Situação real:** conceito e seleção de componentes discutidos; hardware, alimentação elétrica, montagem e jogabilidade precisam ser validados na prática.
-
-## Próxima etapa recomendada
-
-Priorizar um projeto de cada vez. Para cada repositório, incluir:
-- Problema que o projeto resolve.
-- Capturas de tela ou demonstração real.
-- Tecnologias efetivamente usadas.
-- Instruções para instalar e executar.
-- Testes, limitações conhecidas e próximos passos.
-- Um README que diferencie claramente protótipo, versão funcional e funcionalidades futuras.
-
-**Nota:** este catálogo documenta a trajetória de desenvolvimento e não afirma que todos os projetos estejam concluídos ou publicados.
+**Importante:** nem todos os projetos listados já foram transferidos como código para este repositório. O catálogo preserva o contexto e o plano; cada implementação deve ser importada e validada separadamente.
